@@ -27,6 +27,11 @@ function valida(user, pass) {
         return
     }
 
+    if(user === "Secretaria" && pass === "123") {
+        alert("Veterinário logado")
+        return
+    }
+
     alert("Usuários ou Senhas incorretas")
     return
 
