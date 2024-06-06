@@ -27,6 +27,12 @@ body {
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
 
+	background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/1977643-diferentes-tipo-de-cartoon-carinha-de-cachorro-faces-para-design-vetor.jpg');
+	background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+	background-repeat: no-repeat; /* Impede a repetição da imagem */
+	background-position: center; /* Centraliza a imagem */
+	margin: 0; /* Remove a margem padrão do body */
+
 }
 
 /* Formatação comum entre os elementos. */
@@ -48,7 +54,7 @@ header {
 	/* flex-shrink - Capacidade de redução do item.    */
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
-	background: #4CAF50;
+	background: #fff;
 }
 
 header #logo {
@@ -118,6 +124,7 @@ nav {
 
 nav a {
 	/* Margem de todos os lados. */
+	background-color: #fff;
 	padding: 3%;
 	/* Tamanho da fonte. */
 	font-size: 15pt;
@@ -128,10 +135,7 @@ nav a {
 
 nav a:hover {
 	
-	/* Tamanho da fonte. */
-	font-size: 14.5pt;
-
-	background-color: #b4b4b4;
+	background-color: #e0e0e0;
 	
 }
 
@@ -184,7 +188,7 @@ a {
     width:100%;
     margin: auto;
     align-items: stretch;
-    padding: 60px 10px 40px 10px;
+    padding: 31px 10px 15px 10px;
 }
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
@@ -196,7 +200,7 @@ a {
     color: white;
 }
 .rodape-direitos{
-    width: calc(100% - 20px);
+    width: 100%;
     background-color: black;
     padding: 10px;
     margin: 0px;
@@ -239,7 +243,7 @@ a {
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: #4CAF50;
+		background: #fff;
 
 		/* Alinha os itens na horizontal. */
 		align-items: center;
